@@ -1,0 +1,10 @@
+Refuse-without-Refusal
+Copyright 2026 Minji Kim and Hyounghun Kim
+
+The prompt templates in the prompts/ directory are adapted from URIAL:
+https://github.com/Re-Align/URIAL
+Copyright the URIAL contributors. Licensed under the Apache License 2.0.
+
+The data, model weights, and benchmark resources downloaded or used by this
+software are not redistributed as part of this repository. They remain subject
+to their respective licenses and terms of use. See README.md for source links.
