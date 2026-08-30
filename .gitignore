@@ -1,0 +1,83 @@
+# Python bytecode and native extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Packaging and dependency-manager artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+.uv/
+uv.lock
+
+# Virtual environments and local environment variables
+.env
+.env.*
+!.env.example
+new_env.txt
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Testing, coverage, type-checking, and linting caches
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyright/
+
+# Downloaded and generated datasets
+dataset/train/
+dataset/raw/
+dataset/**/raw/
+dataset/**/*.en.jsonl
+dataset/**/*_en.jsonl
+dataset/eval/advbench/harmful_behaviors.csv
+dataset/eval/oktest/oktest.csv
+
+# Model, evaluation, and experiment outputs
+outputs/
+checkpoints/
+runs/
+logs/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+wandb/
+mlruns/
+batch_scripts/
+*.log
+*.err
+*.out
+
+# Temporary files
+temp.py
+temp/
+tmp/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Locally archived legacy code
+legacy/
